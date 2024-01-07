@@ -7,7 +7,7 @@ body{
     
 }
 
-.head{
+.head, .second, .third{
     display: flex;
     flex-direction: column;
     padding: 0px 100px 90px 100px;
@@ -97,14 +97,12 @@ h2{
     color: #1f2937;
 }
 
-.second{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding:  40px 190px 60px 190px;
+.squares{
+    padding: 0px 80px;
 }
+
 .text{
-    padding-bottom: 40px;
+    padding: 40px 0px ;
 }
 
 .boxes{
@@ -125,5 +123,23 @@ ul{
 }
 .textbox{
     width: 200px;
-    
+    color: #1f2937;
+    text-align: center;
+}
+
+.third {
+    background-color: #e5e7eb;
+}
+
+.Thor{
+    color: #1f2937;
+    font-size: 36px;
+    font-family: light italic;
+    padding:90px 30px 0px 160px;
+}
+.Thor1{
+    color: #1f2937;
+    text-align: right;
+    padding-right: 50px;
+
 }
