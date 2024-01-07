@@ -4,13 +4,14 @@ body{
 
 .head,footer{
     background-color: #1f2937;
+    
 }
 
 .head{
     display: flex;
     flex-direction: column;
     padding: 0px 100px 90px 100px;
-    flex: 1;
+    flex: 1 1 auto;
 }
 
 .logo{
@@ -86,5 +87,43 @@ ul{
     display: flex;
     margin: 0;
     padding: 0;
+    
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    font-size: 38px;
+    color: #1f2937;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding:  40px 190px 60px 190px;
+}
+.text{
+    padding-bottom: 40px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+ 
+ul{
+    justify-content: space-between;
+}
+.textbox{
+    width: 200px;
     
 }
