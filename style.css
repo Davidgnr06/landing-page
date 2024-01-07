@@ -7,10 +7,10 @@ body{
     
 }
 
-.head, .second, .third{
+.head, .second, .third,.fourth{
     display: flex;
     flex-direction: column;
-    padding: 0px 100px 90px 100px;
+    padding: 0px 160px 90px 160px;
     flex: 1 1 auto;
 }
 
@@ -40,7 +40,7 @@ a{
 
 .web{
     display: flex;
-    padding: 20px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
     
 }
 
@@ -135,11 +135,33 @@ ul{
     color: #1f2937;
     font-size: 36px;
     font-family: light italic;
-    padding:90px 30px 0px 160px;
+    padding:90px 60px 0px 140px;
 }
 .Thor1{
     color: #1f2937;
     text-align: right;
-    padding-right: 50px;
+    padding-right: 90px;
 
+}
+
+.bluebox{
+    background-color: #3882f6;
+    margin-top: 90px;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.bold{
+    font-weight: 800;
+}
+.but{
+    border-color: #e5e7eb;
+}
+
+footer{
+    padding: 20px 200px;
+    text-align: center;
 }
